@@ -265,9 +265,6 @@ public class Compliance {
 			// ourSocket.setSoTimeout(5000);
 
 			byte[] responseArray = new byte[SAFE_INPUT_READ];
-
-			// Initialize a timeout for the socket
-			//ourSocket.setSoTimeout(5000);
 			
 			// Try to read in the handshake response
 			din.readFully(responseArray);

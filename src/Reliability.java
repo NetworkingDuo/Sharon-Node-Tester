@@ -56,9 +56,6 @@ public class Reliability {
 			// Send Message to node
 			out.write(searchArr);
 
-			// Initialize a timeout for the socket in operation
-			// ourSocket.setSoTimeout(5000);
-
 			byte[] reader = new byte[1];
 			int bytes = 0;
 			byte[] toStore = new byte[SAFE_INPUT_READ];
@@ -458,9 +455,6 @@ public class Reliability {
 
 			// Send Message to node
 			out.write(searchArr);
-
-			// Initialize a timeout for the socket in operation
-			// ourSocket.setSoTimeout(5000);
 
 			byte[] reader = new byte[1];
 			int bytes = 0;
